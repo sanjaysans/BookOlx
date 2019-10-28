@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_bookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="130dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/by"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_bookname"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="5dp"
+        android:text="By :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/list_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_bookname"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/by"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="Sanjay"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/list_author"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="Edition :"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/list_edition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_author"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/edition"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="7th edition"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_edition"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="Price :"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/list_price"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_edition"
+        android:layout_toEndOf="@+id/price"
+        android:layout_toRightOf="@+id/list_image"
+        android:text="300"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_price"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="View More" />
+
+</RelativeLayout>

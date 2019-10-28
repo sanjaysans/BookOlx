@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewmore">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:textAlignment="center"
+        android:text="Book Details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_marginTop="90dp"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="130dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="Book :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book1"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/book"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/author"
+        android:layout_below="@+id/book1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="Author :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/author1"
+        android:layout_below="@+id/book1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/author"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edition"
+        android:layout_below="@+id/author1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="Edition :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edition1"
+        android:layout_below="@+id/author1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/edition"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:layout_below="@+id/edition1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="Price :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/price1"
+        android:layout_below="@+id/edition1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/price"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@+id/price1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Name :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name1"
+        android:layout_below="@+id/price1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roll"
+        android:layout_below="@+id/name1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Roll :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roll1"
+        android:layout_below="@+id/name1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/roll"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:layout_below="@+id/roll1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Contact :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact1"
+        android:layout_below="@+id/roll1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/contact"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/contact1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mail ID :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail1"
+        android:layout_below="@+id/contact1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/mail"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dept"
+        android:layout_below="@+id/mail1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Department :"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dept1"
+        android:layout_below="@+id/mail1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/dept"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dept1"
+        android:layout_marginTop="20dp"
+        android:text="Call"
+        android:id="@+id/call"
+        android:background="@android:color/holo_green_light"
+        android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Book olx</string>
+    <string name="title_activity_signup1">signup1</string>
+    <string-array name="dept_array">
+        <item>BE CS</item>
+        <item>BE IT</item>
+        <item>MSC CS</item>
+        <item>MSC IT</item>
+        <item>BE CIVIL</item>
+        <item>MSC APPLIED MATHS</item>
+        <item>BE MECHANICAL</item>
+        <item>BE ECE</item>
+    </string-array>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>
