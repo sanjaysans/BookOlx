@@ -1,4 +1,4 @@
-# Contributing to Book Dash
+# Contributing to BookOlx
 
 Thank you for your interest in contributing to BookOlx!
 
