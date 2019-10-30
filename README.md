@@ -1,5 +1,5 @@
 # BookOlx
- This ia an Android app for Book Exchange within an university or campus. App allows user to post a new ad (or) delete a posted ad (or) to fetch details of any posted ad. 
+ This is an Android app for Book Exchange within an university or campus. App allows user to post a new ad (or) delete a posted ad (or) to fetch details of any posted ad. 
 
 # Screenshots
 <div>
