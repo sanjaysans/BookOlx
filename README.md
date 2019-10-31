@@ -28,4 +28,4 @@
 Contributions are welcome. Please read the [contributions guide](CONTRIBUTING.md) for more information.
 
 # License
-Copyright 2018 BookOlx.
+Copyright 2018 sanjaysans/BookOlx.
